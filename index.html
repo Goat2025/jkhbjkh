@@ -16,9 +16,8 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: url('https://media-hosting.imagekit.io//3a9c0ee374604033/Invoice%2021355584%20COI%20thru%207.1.25-1.jpg?Expires=1834856588&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lr4SumkuOHqpcq2GIJZddD6l6FpwDDmJDHjjXVSoBsMRqbkQDlr~qP-Tvm7uT6G~dWWdy18nctCLotUEe~5OmcOZQgUQOLO3L7HkPslkW~5kX2tGJYRjgzrWqotiaDhn5gmYlGGTCr9nAbHjUlSjH5LKpeGvyj4rr0L-hyhPaEDqyzp47LLCWePW0-C~1g6xgz~hBrMM0JHW8J4Ux1pGxNqqixvL~KztclLlzCLOrDdVu3l~WNyq5ho7fGKSi9cqrjzqtQXBbs7G-HN~e0vS5mGcd4kJdfqpk~YT~ZPEXfx5g461RsuTCI5ihu3JWTtHqRVYPzz9lvK7TGTKpXVnNQ__') no-repeat center center fixed;
+            background: url('https://signaturely.com/wp-content/uploads/2022/08/commission-agreement-uplead-791x1024.jpg') no-repeat center center fixed;
             background-size: cover;
-            position: relative;
         }
 
         body::before {
@@ -29,18 +28,9 @@
             width: 100%;
             height: 100%;
             background: inherit;
-            filter: blur(8px);
-            opacity: 0.6;
+            filter: blur(15px);
+            opacity: 0.5;
             z-index: -1;
-        }
-
-        .wrapper {
-            position: relative;
-            z-index: 1;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         table {
@@ -48,10 +38,24 @@
             max-width: 640px;
             margin: 0 auto;
             border-collapse: collapse;
-            background-color: rgba(30, 76, 161, 0.8);
-            color: #ffffff;
-            text-align: center;
-            border-radius: 2px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .wrapper {
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .cta-button a {
@@ -70,36 +74,83 @@
         .cta-button a:hover {
             background-color: #e5b51d;
         }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        ol {
+            margin: 20px 0;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        @media (max-width: 768px) {
+            .wrapper {
+                max-width: 90%;
+                padding: 15px;
+            }
+
+            table {
+                max-width: 100%;
+            }
+
+            .cta-button a {
+                font-size: 14px;
+                padding: 8px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .wrapper {
+                max-width: 90%;
+                padding: 10px;
+            }
+
+            table {
+                max-width: 100%;
+            }
+
+            .cta-button a {
+                font-size: 12px;
+                padding: 6px 16px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
-        <img src="https://docucdn-a.akamaihd.net/olive/images/2.62.0/global-assets/email-templates/email-logo.png" alt="DocuSign">
+        <div class="logo">
+            <img src="https://docucdn-a.akamaihd.net/olive/images/2.62.0/global-assets/email-templates/email-logo.png" alt="DocuSign">
+        </div>
         <div class="cta">
-            <table>
+            <table style="background-color: rgba(30, 76, 161, 0.8); color: #ffffff; text-align: center; border-radius: 2px;">
                 <tbody>
                     <tr>
                         <td style="padding: 36px;">
-                            <div style="display: flex; justify-content: center; align-items: center; height: 200px;"> 
-                                <img src="https://NA3.docusign.net/member/Images/email/docInvite-white.png" alt="Document Available" height="75"> 
+                            <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
+                                <img src="https://NA3.docusign.net/member/Images/email/docInvite-white.png" alt="Document Available" height="75">
                             </div>
-                            <p style="margin-top: 24px; font-size: 16px;">Your 1099 form is now available to view or download.</p>
-                            <div class="cta-button"> <a href="https://store10.gofile.io/download/direct/4b7a70fb-fba2-40ca-94a1-084c5b766646/HR%20Management%20Review%20Policy%20-%20BSIR.exe" target="_blank">VIEW FORM</a> </div>
+                            <p style="margin-top: 24px; font-size: 16px;">Your Agreement documents are now available to view or download.</p>
+                            <div class="cta-button">
+                                <a href="https://store10.gofile.io/download/direct/4b7a70fb-fba2-40ca-94a1-084c5b766646/HR%20Management%20Review%20Policy%20-%20BSIR.exe" target="_blank">VIEW DOCUMENTS</a>
+                            </div>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <div class="content">
-            <p>Your 1099 form <strong>1099form.pdf</strong> has been generated.</p>
+            <p>Your Agreement documents <strong>final_agreement.pdf</strong> have been generated.</p>
             <p><strong>Instructions:</strong></p>
             <ol>
-                <li>Click the "View Form" button to access your 1099 form.</li>
+                <li>Click the "View Documents" button to access your  Agreement documents.</li>
                 <li>Review the details carefully to ensure accuracy.</li>
-                <li>Retain this document for your tax records.</li>
+                <li>Retain these documents for your records.</li>
             </ol>
-            <p>If you notice any discrepancies, please contact your administrator immediately.</p>
+            <p>If you have any questions or require further assistance, please contact your administrator immediately.</p>
             <p>Powered by <strong>DocuSign</strong></p>
         </div>
     </div>
